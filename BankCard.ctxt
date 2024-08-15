@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=BankCard
+comment0.text=\r\n\ This\ BankCard\ class\ is\ the\ parent\ class\ for\ this\ bank\ project\r\n\ This\ class\ stores\ values\ for\ card\ ID,\ Client\ Name,\ Issuer\ Bank,\ Bank\ Account\ and\ Balance\ Amount\r\n\ and\ constructor\ to\ accecpt\ the\ above\ data\ from\ the\ user\r\n\ with\ getter\ or\ accessor\ method\ to\ return\ the\ vaules\ of\ their\ corresponding\ value\ while\ calling\ it\ from\ other\ class\r\n\ and\ setter\ or\ mutator\ method\ to\ change\ the\ pre-existing\ data.\r\n\ Finally\ a\ display\ method\ to\ output\ the\ required\ data\r\n\ @author\ (Himal\ Sharma)\r\n\ @version\ (5.1.0)\r\n
+comment1.params=card_Id\ issuer_Bank\ bank_Account\ balance_Amount
+comment1.target=BankCard(int,\ java.lang.String,\ java.lang.String,\ double)
+comment1.text=constructor\ of\ class\ BankCard\ which\ accecpts\ parameter\ as\ card\ ID,\ Issuer\ Bank,Bank\ Account,\r\nBalance\ Amount
+comment2.params=
+comment2.target=int\ getCard_Id()
+comment2.text=\r\n\ getter\ or\ accessor\ method\ of\ the\ declared\ variable\ is\ created\ for\:\r\n\ card\ ID,\ Client\ Name,\ Bank\ Account,\ Balance\ Amount,\ Issuer\ Bank\r\n
+comment3.params=
+comment3.target=java.lang.String\ getclient_Name()
+comment4.params=
+comment4.target=java.lang.String\ getbank_Account()
+comment5.params=
+comment5.target=double\ getbalance_Amount()
+comment6.params=
+comment6.target=java.lang.String\ getissuer_Bank()
+comment7.params=client_Name
+comment7.target=void\ setclient_Name(java.lang.String)
+comment7.text=\r\n\ Setter\ or\ mutator\ method\ for\ Client\ Name\ and\ Balance\ Amount\r\n\ is\ created\ to\ change\ their\ value\r\n
+comment8.params=balance_Amount
+comment8.target=void\ setbalance_Amount(double)
+comment9.params=
+comment9.target=void\ display()
+comment9.text=\r\n\ display\ method\ is\ created\ to\ display\ the\ user\ credintals\r\n\ with\ a\ condition\ to\ display\ enter\ Client\ Name\ if\ not\ entered\r\n
+numComments=10

@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=DebitCard
+comment0.text=\r\n\ This\ DebitCard\ class\ is\ the\ child\ class\ of\ BankCard\ class\ for\ this\ bank\ project\r\n\ This\ class\ stores\ values\ for\ PIN\ Number,\ Withdrawal\ Amount,\ Date\ of\ Withdrawaland\ and\ if\ the\ withdrawal\ has\ been\ made\ or\ not\r\n\ with\ a\ constructor\ to\ retrive\ Balance\ Amount,card\ ID,\ Bank\ Account,\r\n\ Issuer\ Bank,\ Client\ Name\ and\ PIN\ Number\ from\ the\ user.\r\n\ With\ setters\ method\ to\ return\ the\ value\ while\ calling\ the\ method\r\n\ And\ mutator\ method\ to\ change\ the\ value\ if\ required\ by\ calling\ the\ method\r\n\ with\ a\ method\ to\ withdraw\ the\ amount\ responding\ to\ balance\ amount\ and\ pin\ number\r\nFinally\ a\ display\ method\ to\ output\ the\ required\ data\r\n\ @author\ (Himal\ Sharma)\r\n\ @version\ (5.1.0)\r\n
+comment1.params=balance_Amount\ card_Id\ bank_Account\ issuer_Bank\ client_Name\ pin_Number
+comment1.target=DebitCard(double,\ int,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ int)
+comment1.text=\r\n\ constructor\ of\ class\ DebitCard\ which\ accecpts\ parameter\ as\ Balance\ Amount,card\ ID,\ Bank\ Account,\r\n\ Issuer\ Bank,\ Client\ Name\ and\ PIN\ Number\r\n
+comment2.params=
+comment2.target=int\ getpin_Number()
+comment2.text=\r\n\ getter\ or\ accessor\ method\ of\ the\ declared\ variable\ is\ created\ for\:\r\n\ PIN\ Number,\ Withdrawal\ Amount,\ Date\ of\ Withdrawal,\ Has\ Withdrawn\r\n
+comment3.params=
+comment3.target=int\ getwithdrawal_Amount()
+comment4.params=
+comment4.target=java.lang.String\ getdate_Of_Withdrawal()
+comment5.params=
+comment5.target=boolean\ gethas_Withdrawn()
+comment6.params=withdrawal_Amount
+comment6.target=void\ setwithdrawal_Amount(int)
+comment6.text=\r\n\ Setter\ or\ mutator\ method\ to\r\nchange\ the\ value\ of\ withdrawal\ amount\r\n
+comment7.params=withdrawal_Amount\ date_Of_Withdrawal\ pin_Number
+comment7.target=void\ withdraw(int,\ java.lang.String,\ int)
+comment7.text=\r\n\ withdraw\ method\ for\ withdrawal\ process\r\n\ after\ the\ sufficient\ balance\ is\ present\ and\ the\ pin\ number\ is\ correct\ and\ deduct\ the\ amount\ withdrawn\r\n
+comment8.params=
+comment8.target=void\ display()
+comment8.text=\r\n\ display\ method\ to\ display\ the\ necessary\ credintals\r\n\ with\ the\ relevant\ condition\ to\ show\ which\ data\ to\ be\ shown\r\n
+numComments=9
